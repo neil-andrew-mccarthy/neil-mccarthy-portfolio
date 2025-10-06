@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "neil-mccarthy-portfolio": {
+      "appLocation": ".",
+      "outputLocation": "build",
+      "appBuildCommand": "npm run build",
+      "run": "npm run dev",
+      "appDevserverUrl": "http://localhost:5173",
+      "appName": "neil-mccarthy-portfolio",
+      "resourceGroup": "neil-mccarthy-portfolio-rg"
+    }
+  }
+}
