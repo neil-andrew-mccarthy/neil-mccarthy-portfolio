@@ -13,12 +13,12 @@ const HeroSection = () => {
   return (
     <section id="hero" className="min-h-screen bg-[#1a1c1b] flex items-center justify-center relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
+      {/* <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-32 h-32 border border-[#d9fb06] rotate-45"></div>
         <div className="absolute top-40 right-32 w-24 h-24 border border-[#3f4816] rotate-12"></div>
         <div className="absolute bottom-32 left-32 w-28 h-28 border border-[#d9fb06] -rotate-12"></div>
         <div className="absolute bottom-20 right-20 w-20 h-20 border border-[#3f4816] rotate-45"></div>
-      </div>
+      </div> */}
 
       <div className="container mx-auto px-8 py-20 relative z-10">
         <div className="max-w-6xl mx-auto">
