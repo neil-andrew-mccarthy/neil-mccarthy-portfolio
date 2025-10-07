@@ -47,7 +47,8 @@ const Footer = () => {
                   <Linkedin size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/neil-andrew-mccarthy"
+                  target="_blank"
                   className="p-3 bg-[#1a1c1b] text-[#888680] hover:text-[#d9fb06] hover:bg-[#3f4816] rounded-lg transition-all duration-300"
                   title="GitHub Profile"
                 >
