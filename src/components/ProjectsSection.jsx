@@ -138,10 +138,10 @@ const ProjectsSection = () => {
                         Live Site
                       </a>
                     )}
-                    <button className="flex items-center gap-2 px-4 py-2 border border-[#d9fb06] text-[#d9fb06] rounded-full font-semibold hover:bg-[#d9fb06] hover:text-[#1a1c1b] transition-all duration-300">
+                    {/* <button className="flex items-center gap-2 px-4 py-2 border border-[#d9fb06] text-[#d9fb06] rounded-full font-semibold hover:bg-[#d9fb06] hover:text-[#1a1c1b] transition-all duration-300">
                       <Github size={16} />
-                      {/* Case Study2 */}
-                    </button>
+                      Case Study
+                    </button> */}
                   </div>
                 </div>
               </div>
