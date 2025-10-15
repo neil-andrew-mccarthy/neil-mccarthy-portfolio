@@ -17,23 +17,8 @@ A modern, responsive portfolio website showcasing Neil McCarthy's expertise as a
 
 ## Tech Stack
 
-- **Frontend**: React 19, React Router DOM
-- **Styling**: Tailwind CSS with custom configuration
+- **Frontend**: React v19.0.0, React Router DOM v7.5.1
+- **Styling**: Tailwind CSS v3.4.17
 - **Icons**: Lucide React
-- **Build Tool**: Create React App with CRACO
-- **Package Manager**: Yarn
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- Yarn package manager
-
-### Installation
-
-1. Clone or download this repository
-2. Navigate to the project directory:
-   ```bash
-   cd neil-mccarthy-portfolio
-   
+- **Build Tool**: Vite 7.1.9
+- **Package Manager**: npm
