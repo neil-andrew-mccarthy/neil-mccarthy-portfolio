@@ -11,28 +11,43 @@ export const personalInfo = {
 };
 
 export const coreSkills = {
-  "Languages & Frameworks": [
-    "C#", ".NET 8", ".NET 6", ".NET Core", "ASP.NET Core", "ASP.NET Core MVC", 
-    "React", "JavaScript", "TypeScript", "jQuery", "HTML5", "CSS3"
+  "Backend Development": [
+    "C#", ".NET 8/6", "ASP.NET Core (Web API, MVC)", "EF Core", "LINQ", "REST", 
+    "JSON", "SQL Server", "T-SQL", "MySQL"
+  ],
+  "Frontend Development": [
+    "React", "JavaScript (ES6+)", "TypeScript", "jQuery", "Vite", "Bootstrap", 
+    "HTML5/CSS3", "SASS/SCSS", "Razor", "AJAX"
   ],
   "Cloud & DevOps": [
-    "Microsoft Azure", "Azure DevOps", "Docker", "Kubernetes", 
-    "CI/CD Pipelines", "Git", "GitHub"
+    "Microsoft Azure", "Azure App Services", "Azure SQL", "Azure Storage", "Azure VMs",
+    "CI/CD Pipelines", "Git", "GitHub", "Azure DevOps"
   ],
-  "Databases & Data": [
-    "T-SQL", "MySQL", "Azure SQL Database", "Entity Framework", 
-    "LINQ", "JSON", "XML"
+  "Architecture/Frameworks/Patterns": [
+    "MVC", "MVVM", "DI/IoC/GoF", "Agile", "Scrum", "Kanban", "Lean", "UML", "Use-Case Design", "SOLID"
   ],
-  "AI & Modern Tech": [
-    "Prompt Engineering", "Generative AI", "LLM Integrations", 
-    "AI Enhanced Programming", "GitHub Copilot", "Custom GPTs"
+  "Testing/QA": [
+    "xUnit", "MSTest", "Postman", "Fiddler"
   ],
-  "Security & Authentication": [
-    "JWT", "OAuth2", "OpenID Connect", "Identity Server", 
-    "OWASP Top 10", "API Hardening", "Encryption"
+  "AI": [
+    "GitHub Copilot", "Prompt Engineering", "Generative AI", "Augmented AI", "Large Language Models", 
+    "AI-Assisted Development", "Growth experimentation", "Custom GPTs", "AI-Enhanced Programming",
+    "AI Orchestration", "AI Agents", "AI Tooling", "Machine Learning", "Agentic AI", "AI Automation",
+    "LLM Integrations", "Product building with AI", "no-code/low-code AI platforms"
   ],
-  "Testing & Quality": [
-    "xUnit", "NUnit", "Moq", "Selenium", "TDD", "BDD", "MSTest"
+  "Legacy Modernisation": [
+    ".NET Framework", "ASP.NET MVC 5", "ASP.NET Core 3.1", "WCF", "WPF", "XAML", "Silverlight", 
+    "XML", "Entity Framework (EF6)", "WinForms", "WebForms", "VB.NET/VB6", "C++/VC++",
+    "SOAP", "IIS"
+  ],
+  "Tools/OS": [
+    "Visual Studio", "VS Code", "Windows", "Linux(Ubuntu, WSL)"
+  ],
+    "CMS": [
+    "Umbraco", "Shopify", "Wordpress", "WooCommerce", "HubSpot"
+  ],
+    "Design": [
+    "Adobe Photoshop", "Adobe XD", "Adobe Illustrator", "Canva", "CapCut"
   ]
 };
 

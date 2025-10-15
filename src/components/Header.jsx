@@ -72,7 +72,6 @@ const Header = () => {
             >
               CONTACT
             </button>
-            
             {/* LinkedIn Button */}
             <a
               href="https://www.linkedin.com/in/neil-andrew-mccarthy/"

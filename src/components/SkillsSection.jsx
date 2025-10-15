@@ -1,46 +1,70 @@
 import React, { useState } from 'react';
-import { Code, Cloud, Database, Shield, TestTube, Brain } from 'lucide-react';
+import { Code, Cloud, Database, TestTube, Brain, Shield, Route, Brush, FolderKanban, BringToFront } from 'lucide-react';
 import { coreSkills } from '../data/portfolioData';
 
 const SkillsSection = () => {
-  const [activeCategory, setActiveCategory] = useState('Languages & Frameworks');
+  const [activeCategory, setActiveCategory] = useState('Backend Development');
 
   const skillCategories = [
     {
-      name: 'Languages & Frameworks',
+      name: 'Backend Development',
       icon: <Code className="w-6 h-6" />,
       color: '#d9fb06',
-      skills: coreSkills['Languages & Frameworks']
+      skills: coreSkills['Backend Development']
+    },
+    {
+      name: 'Frontend Development',
+      icon: <Cloud className="w-6 h-6" />,
+      color: '#d9fb06',
+      skills: coreSkills['Frontend Development']
     },
     {
       name: 'Cloud & DevOps',
-      icon: <Cloud className="w-6 h-6" />,
+      icon: <Database className="w-6 h-6" />,
       color: '#d9fb06',
       skills: coreSkills['Cloud & DevOps']
     },
     {
-      name: 'Databases & Data',
-      icon: <Database className="w-6 h-6" />,
-      color: '#d9fb06',
-      skills: coreSkills['Databases & Data']
-    },
-    {
-      name: 'AI & Modern Tech',
-      icon: <Brain className="w-6 h-6" />,
-      color: '#d9fb06',
-      skills: coreSkills['AI & Modern Tech']
-    },
-    {
-      name: 'Security & Authentication',
-      icon: <Shield className="w-6 h-6" />,
-      color: '#d9fb06',
-      skills: coreSkills['Security & Authentication']
-    },
-    {
-      name: 'Testing & Quality',
+      name: 'Testing/QA',
       icon: <TestTube className="w-6 h-6" />,
       color: '#d9fb06',
-      skills: coreSkills['Testing & Quality']
+      skills: coreSkills['Testing/QA']
+    },  
+    {
+      name: 'Architecture/Frameworks/Patterns',
+      icon: <Brain className="w-6 h-6" />,
+      color: '#d9fb06',
+      skills: coreSkills['Architecture/Frameworks/Patterns']
+    },
+    {
+      name: 'AI',
+      icon: <Shield className="w-6 h-6" />,
+      color: '#d9fb06',
+      skills: coreSkills['AI']
+    },
+    {
+      name: 'Legacy Modernisation',
+      icon: <Route className="w-6 h-6" />,
+      color: '#d9fb06',
+      skills: coreSkills['Legacy Modernisation']
+    },
+        {
+      name: 'Tools/OS',
+      icon: <Brush className="w-6 h-6" />,
+      color: '#d9fb06',
+      skills: coreSkills['Tools/OS']
+    },
+        {
+      name: 'CMS',
+      icon: <FolderKanban className="w-6 h-6" />,
+      color: '#d9fb06',
+      skills: coreSkills['CMS']
+    },
+        {
+      name: 'Design',
+      icon: <BringToFront className="w-6 h-6" />,
+      color: '#d9fb06',
+      skills: coreSkills['Design']
     }
   ];
 

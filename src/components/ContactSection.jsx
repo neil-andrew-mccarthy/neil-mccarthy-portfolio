@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Linkedin, Download, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Download, Send, ExternalLink } from 'lucide-react';
 import { personalInfo, interests } from '../data/portfolioData';
 
 const ContactSection = () => {
@@ -86,17 +86,24 @@ const ContactSection = () => {
                   <Send size={20} />
                   Send Message
                 </a>
-                
                 <a
                   href={personalInfo.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full flex items-center justify-center gap-3 border-2 border-[#d9fb06] text-[#d9fb06] py-4 rounded-full font-bold text-lg hover:bg-[#d9fb06] hover:text-[#1a1c1b] transition-all duration-300 uppercase tracking-wide"
                 >
-                  <Linkedin size={20} />
+                  <ExternalLink size={20} />
                   LinkedIn Profile
                 </a>
-
+                <a
+                  href="https://cricketts.co.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex items-center justify-center gap-3 border-2 border-[#d9fb06] text-[#d9fb06] py-4 rounded-full font-bold text-lg hover:bg-[#d9fb06] hover:text-[#1a1c1b] transition-all duration-300 uppercase tracking-wide"
+                >
+                  <ExternalLink size={20} />
+                  Live Site
+                </a>
                 {/* <button className="w-full flex items-center justify-center gap-3 bg-[#302f2c] text-[#888680] py-4 rounded-full font-bold text-lg hover:bg-[#3f4816] hover:text-[#d9fb06] transition-all duration-300 uppercase tracking-wide border border-[#3f4816]/50">
                   <Download size={20} />
                   Download CV

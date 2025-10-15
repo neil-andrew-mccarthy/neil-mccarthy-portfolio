@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Mail, Linkedin, Github } from 'lucide-react';
+import { Heart, Mail, Linkedin, Github, ExternalLink } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 const Footer = () => {
@@ -53,6 +53,14 @@ const Footer = () => {
                   title="GitHub Profile"
                 >
                   <Github size={20} />
+                </a>
+                                <a
+                  href="https://cricketts.co.uk"
+                  target="_blank"
+                  className="p-3 bg-[#1a1c1b] text-[#888680] hover:text-[#d9fb06] hover:bg-[#3f4816] rounded-lg transition-all duration-300"
+                  title="Live Site"
+                >
+                  <ExternalLink size={20} />
                 </a>
               </div>
             </div>
