@@ -155,7 +155,7 @@ const Footer = () => {
               </div>
               
               <div className="flex items-center gap-6 text-sm">
-                <button 
+                {/* <button 
                   onClick={() => window.open('#', '_blank')}
                   className="text-[#888680] hover:text-[#d9fb06] transition-colors duration-300"
                 >
@@ -166,7 +166,7 @@ const Footer = () => {
                   className="text-[#888680] hover:text-[#d9fb06] transition-colors duration-300"
                 >
                   Terms of Service
-                </button>
+                </button> */}
                 <button 
                   onClick={scrollToTop}
                   className="text-[#d9fb06] hover:opacity-80 transition-opacity duration-300 font-semibold"

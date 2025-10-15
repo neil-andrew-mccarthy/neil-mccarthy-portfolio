@@ -97,10 +97,10 @@ const ContactSection = () => {
                   LinkedIn Profile
                 </a>
 
-                <button className="w-full flex items-center justify-center gap-3 bg-[#302f2c] text-[#888680] py-4 rounded-full font-bold text-lg hover:bg-[#3f4816] hover:text-[#d9fb06] transition-all duration-300 uppercase tracking-wide border border-[#3f4816]/50">
+                {/* <button className="w-full flex items-center justify-center gap-3 bg-[#302f2c] text-[#888680] py-4 rounded-full font-bold text-lg hover:bg-[#3f4816] hover:text-[#d9fb06] transition-all duration-300 uppercase tracking-wide border border-[#3f4816]/50">
                   <Download size={20} />
                   Download CV
-                </button>
+                </button> */}
               </div>
             </div>
 

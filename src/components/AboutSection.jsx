@@ -52,9 +52,9 @@ const AboutSection = () => {
                   Transforming Ideas Into Scalable Solutions
                 </h3>
                 <p className="text-[#888680] text-lg leading-relaxed mb-6">
-                  With over 10 years of enterprise-scale software development experience, I specialize in 
-                  modernizing legacy systems, building scalable cloud architectures, and leading high-performing 
-                  development teams to deliver exceptional results.
+                  With over 10 years of enterprise-scale software development experience, I specialise in 
+                  building greenfield projects, modernising legacy systems, building scalable cloud architectures, 
+                  and leading high-performing development teams to deliver exceptional results.
                 </p>
                 <p className="text-[#888680] text-lg leading-relaxed mb-6">
                   My expertise spans the complete software development lifecycle, from architecture design 
